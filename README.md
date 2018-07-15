@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+多対多をチェックボックスの編集画面で実現したRailsイディオムです。
 
-Things you may want to cover:
+# 設計
 
-* Ruby version
+`Book`に対して`Category`が複数チェックボックスで設定できる想定の画面です。
 
-* System dependencies
+## View
+Bookの編集フォームが主たる画面。
 
-* Configuration
+## DB
+- books
+- book_categories
+- categories
 
-* Database creation
+# ソースコード（ `rails new` との比較）
 
-* Database initialization
+[ソースコード](https://github.com/CircleAround/rails_idioms-many_to_many_checkboxes/compare/7d4a9ad067f421f0356cea63f13df48084568e5a...6631abcb2064cdbd9eb58434d6cb08438a322023)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
